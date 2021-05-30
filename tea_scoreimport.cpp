@@ -16,9 +16,9 @@ tea_scoreimport::tea_scoreimport(QWidget *parent) :
     this->model->setHorizontalHeaderItem(0,new QStandardItem("姓名"));
     this->model->setHorizontalHeaderItem(1,new QStandardItem("学号"));
     this->model->setHorizontalHeaderItem(2,new QStandardItem("班级"));
-    this->model->setHorizontalHeaderItem(3,new QStandardItem("数学"));
-    this->model->setHorizontalHeaderItem(4,new QStandardItem("英语"));
-    this->model->setHorizontalHeaderItem(5,new QStandardItem("物理"));
+    this->model->setHorizontalHeaderItem(3,new QStandardItem("C++"));
+    this->model->setHorizontalHeaderItem(4,new QStandardItem("Java"));
+    this->model->setHorizontalHeaderItem(5,new QStandardItem("Python"));
     this->model->setHorizontalHeaderItem(6,new QStandardItem("总分"));
 
     this->ui->tableView->setModel(model);
@@ -48,9 +48,9 @@ void tea_scoreimport::reset()
     this->model->setHorizontalHeaderItem(0,new QStandardItem("姓名"));
     this->model->setHorizontalHeaderItem(1,new QStandardItem("学号"));
     this->model->setHorizontalHeaderItem(2,new QStandardItem("班级"));
-    this->model->setHorizontalHeaderItem(3,new QStandardItem("数学"));
-    this->model->setHorizontalHeaderItem(4,new QStandardItem("英语"));
-    this->model->setHorizontalHeaderItem(5,new QStandardItem("物理"));
+    this->model->setHorizontalHeaderItem(3,new QStandardItem("C++"));
+    this->model->setHorizontalHeaderItem(4,new QStandardItem("Java"));
+    this->model->setHorizontalHeaderItem(5,new QStandardItem("Phython"));
     this->model->setHorizontalHeaderItem(6,new QStandardItem("总分"));
 
     this->ui->tableView->setColumnWidth(0,80);
